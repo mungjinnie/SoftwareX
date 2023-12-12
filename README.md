@@ -8,30 +8,44 @@ CocoStyle is an AI based mixed initiative co-creative system that supports three
 -   We tested in Python 3.8.5 and PyTorch 1.13.1 with CUDA 11.8 and RTX 4070ti.
 
 ### Frontend:
+---
 
-> 1. Install ([NodeJS](https://nodejs.org/en/download/))
-> 
-> 2. Inside the `frontend` directory, install dependencies by running the following command in the terminal:
-> 
->         npm i -g react-scripts
->         npm audit fix --force
-> 
-> 3. Inside the `frontend` directory, build the application by running the following command in the terminal:
-> 
->         npm run build
-> 
-> 4. Launch the `frontend` by running the following command in the terminal within the `./frontend` directory: 
-> 
->          npm start
-> 
-> 
-> 5. Access the frontend of the platform from React by visiting:  
-> 		
-> 		127.0.0.1:3000 
-> 
-> 
-> ----- ``` conda env create -f environment.yml ```
+#### Environment installation
+ 1. Install ([NodeJS](https://nodejs.org/en/download/))
+2. Install ([npm](https://www.npmjs.com/))
+ 3. Install a package through the -g flag will install the package in the system folder.
+ 
+        npm install -g n
+ 4. Install the stable version through a plug-in that manages the Node.js version 
+ 
+         n stable
+ 
+5. Inside the `frontend` directory, install dependencies by running the following command in the terminal:
+ 
+         n stable
+ 
+6. Go to the  frontend directory `/src/QuQu/QuQu/`, build the application by running the following command in the terminal
+ 
+         npm run build
+ 
+ 7. Launch the frontend application by running the following command in the terminal within the `/src/QuQu/QuQu/` directory: 
+ 
+          npm start
+ 
+ 
+ 8. Access the frontend of the platform from React by visiting:  
+		
+ 		127.0.0.1:3000 
+ 
+ #### Enabling S3
+To enable S3 for images, go to `src/QuQu/QuQu/src/ququ.config.js` and enter your AWS.
 
+    149. ####INPUT S3 INFO
+	149. ACCESS_KEY =  ''
+	150. SECRET_ACCESS_KEY =  ""
+	151. REGION =  ""
+	152. S3_BUCKET =  ''
+ 
 
 
 ## Backend:
