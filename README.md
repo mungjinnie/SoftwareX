@@ -5,6 +5,7 @@ CocoStyle is an AI based mixed initiative co-creative system that supports three
 
 ## Local server setup
 ### System requirments:
+-   We tested in NodeJS 20.10.0 and npm 10.2.3
 -   We tested in Python 3.8.5 and PyTorch 1.13.1 with CUDA 11.8 and RTX 4070ti.
 
 ## Frontend:
