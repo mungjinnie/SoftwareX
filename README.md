@@ -97,8 +97,8 @@ Enter the user name in QuQu-backend/ququ/views.py to distinguish between users w
 Go to https://drive.google.com/file/d/12vOtPhA6OcndJR5G0o-GUI30ob9SAhM3/view?usp=drive_link and move the downloaded database to src/QuQu-backend/
 
 Go to https://drive.google.com/file/d/1lMDldYc12J1zw6AnXefpwNBUVHwpdR0W/view?usp=drive_link and move the downloaded HumanGAN file to src/QuQu-backend/ququ/apicode/
-Go to 
-https://drive.google.com/file/d/1nKUg2nqSgv4AvNlXKi-wMP5NJzUI9I0c/view?usp=drive_link and move the downloaded pth file to src/QuQu-backend/ququ/
+
+Go to https://drive.google.com/file/d/1nKUg2nqSgv4AvNlXKi-wMP5NJzUI9I0c/view?usp=drive_link and move the downloaded pth file to src/QuQu-backend/ququ/
 
 #### Django
 Construct Django environment.
