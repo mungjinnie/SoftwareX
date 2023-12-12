@@ -7,16 +7,15 @@ CocoStyle is an AI based mixed initiative co-creative system that supports three
 ### System requirments:
 -   We tested in Python 3.8.5 and PyTorch 1.13.1 with CUDA 11.8 and RTX 4070ti.
 
-### Frontend:
----
+## Frontend:
 
-#### Environment installation
- 1. Install ([NodeJS](https://nodejs.org/en/download/))
+### Environment installation
+1. Install ([NodeJS](https://nodejs.org/en/download/))
 2. Install ([npm](https://www.npmjs.com/))
- 3. Install a package through the -g flag will install the package in the system folder.
+3. Install a package through the -g flag will install the package in the system folder.
  
         npm install -g n
- 4. Install the stable version through a plug-in that manages the Node.js version 
+4. Install the stable version through a plug-in that manages the Node.js version 
  
          n stable
  
@@ -28,16 +27,16 @@ CocoStyle is an AI based mixed initiative co-creative system that supports three
  
          npm run build
  
- 7. Launch the frontend application by running the following command in the terminal within the `/src/QuQu/QuQu/` directory: 
+7. Launch the frontend application by running the following command in the terminal within the `/src/QuQu/QuQu/` directory: 
  
           npm start
  
  
- 8. Access the frontend of the platform from React by visiting:  
+8. Access the frontend of the platform from React by visiting:  
 		
  		127.0.0.1:3000 
  
- #### Enabling S3
+#### Enabling S3
 To enable S3 for images, go to `src/QuQu/QuQu/src/ququ.config.js` and enter your AWS.
 
     149. ####INPUT S3 INFO
