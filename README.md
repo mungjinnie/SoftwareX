@@ -118,5 +118,6 @@ Run Django server.
 python manage.py runserver
 ```
 
-
+## Acknowlegement
+Part of the code is borrowed from  [StyleGAN-Human](https://github.com/stylegan-human/StyleGAN-Human),  [FashionFormer](https://github.com/xushilin1/FashionFormer),  [Vision_Transformer](https://github.com/jo1jun/Vision_Transformer).
 
